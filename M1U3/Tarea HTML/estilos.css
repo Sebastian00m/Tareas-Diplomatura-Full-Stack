@@ -1,0 +1,20 @@
+body{
+    font-family: sans-serif ;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+}
+.caja img{
+    width: 400px;
+    height: 400px;
+}
+.hobbies{
+    color: yellow;
+    background-color: green;
+    padding: 30px;
+}
