@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+.destacados{
+    color: orange;
+}
+#color{
+    background-color: yellow;
+    width: 350px;
+    height: 350px;
+    border: solid black;
+    padding: 20px;
+    color: green;
+}
+#casa{
+    background-color: brown;
+    width: 600px;
+    height: 600px;
+    padding-left: 80px;;
+    font-size: 30px;
+}
