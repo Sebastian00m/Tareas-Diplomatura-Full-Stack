@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: black;
+    background-color: white;
     margin: 0;
 }
 header{
@@ -30,15 +30,16 @@ nav a{
 nav a:hover{
     color: white;
 }
-section{
+#bienvenidos{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 700px;
-    background-color: blue;
-    align-items: center;
-    margin: 10px;
+    text-align: center;
+    height:90vh;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) 
+    ,url("dev1.jpg")
 }
 h2{
     font-size: 40px;
@@ -46,12 +47,11 @@ h2{
 button{
     padding: 10px 30px;
     border-radius: 8px;
-    background-color: #0aa70a;
+    background-color: #20c420;
     color: black;
     font-weight: 1000;
 }
 button:hover{
-    background-color: #20c420;
     transition: all 0.3s ease ;
     transform: scale(1.05,1.05);
     color: white;

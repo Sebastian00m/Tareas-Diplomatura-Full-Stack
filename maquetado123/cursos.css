@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: black;
+    background-color: white;
     margin: 0;
 }
 header{
@@ -30,13 +30,37 @@ nav a{
 nav a:hover{
     color: white;
 }
-section{
+#container{
     display: flex;
+    column-count: 4;
+    column-gap: 30px;
+    max-width:  1400px;
+    margin: auto;
+}
+.Nuestros-cursos h2{
+    align-content: center;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+.carta{
+    border: 1px solid #ccc;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 700px;
-    background-color: blue;
-    align-items: center;
-    margin: 10px;
+    background-color: #4edf0f;
+    padding: 20px;
+    border-radius: 15px;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: #593bff;
+    color: white;
+    font-weight: 1000;
+}
+button:hover{
+    transition: all 0.3s ease ;
+    transform: scale(1.05,1.05);
+    color: white;
 }
