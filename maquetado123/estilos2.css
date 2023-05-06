@@ -30,7 +30,7 @@ nav a{
 nav a:hover{
     color: white;
 }
-#bienvenidos{
+.bienvenidos{
     color: white;
     display: flex;
     justify-content: center;
@@ -41,8 +41,8 @@ nav a:hover{
     background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) 
     ,url("dev1.jpg")
 }
-h2{
-    font-size: 40px;
+.bienvenidos h2{
+    font-size: 60px;
 }
 button{
     padding: 10px 30px;
