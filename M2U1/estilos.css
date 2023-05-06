@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif ;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 450px;
+    height: 450px;
+    border-radius: 50px;
+}
+.caja img{
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+}
+.hobbies{
+    color: yellow;
+    background: rgb(2,0,36);
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,214,26,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 30px;
+}
+.pref{
+    column-count: 2;
+}

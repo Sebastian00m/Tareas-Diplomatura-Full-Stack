@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: solid black;
+}
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 
+}
