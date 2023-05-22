@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var op=1;
+        console.log('Ejercicio 1');
+        while(op!=0){
+        var distancia = prompt('ingrese una distacia para evaluar el medio de transporte:','');
+        
+        if(distancia>0 && distancia<1000)
+            console.log('Se recomienda ir a pie');
+        else{
+            if(distancia>=1000 && distancia<10000)
+                console.log('Se recomienda ir en Bicicleta');
+            else{
+                if(distancia>=10000 && distancia<30000)
+                    console.log('Se recomienda ir en Colectivo');
+                else
+                    console.log('Se recomienda ir en Auto');
+            }
+        }
+
+        op= prompt('Desea pasar al ejercicio 2 o desea seguir en el Ejercicio 1?(1 para seguir 0 para salir)')
+        }
+        console.log('Salisteee!!!');
+        console.log('Ejercicio 2');
+        const vec=[3,4,3,2,10];
+
+        for(let i=0;i<vec.length;i++){
+            console.log(vec[i]);
+        }
+        var max=vec[0];
+        for(let j=1;j<vec.length;j++){
+            if(vec[j]>max);
+                max=vec[j];
+        }
+        console.log('El valor maximo es ' + max);
+
+
+    </script>
+</body>
+</html>
