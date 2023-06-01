@@ -1,8 +1,8 @@
 const Footer = (props) => {
     return(
         <>
-            <div>Hola Todo bien? Soy un <b>Footer</b></div>
-            <p> Lorem </p>
+            <div>LLegaste al final... Soy un <b>Footer</b></div>
+            <p>Diseñado por Mauro Montaño - &copy;2023</p>
         </>
     )
 }
