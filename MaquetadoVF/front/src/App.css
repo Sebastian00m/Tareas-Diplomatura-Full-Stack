@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+body{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: black;
+}
+.holder{
+  max-width: 960px;
+  margin: 0 auto;
+
+}

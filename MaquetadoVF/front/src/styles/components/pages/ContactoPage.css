@@ -1,0 +1,42 @@
+.Container{
+    display: flex;
+    gap: 30px;
+}
+.contacto div{
+    width: 100%;
+}
+h2, h4{
+    color: #ccc;
+}
+.datos p{
+    font-size: 14px;
+    color: #ccc;
+}
+.datos h4{
+    font-size: 13px;
+}
+.formulario p{
+    display: flex;
+}
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    color: #ccc;
+}
+.formulario input[type="submit"]{
+    padding: 6px 20px;
+    border-radius: 8px;
+    background-color: #319406;
+    color: black;
+    font-size: 16px;
+}
+.formulario input[type="submit"]:hover{
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease ;
+    transform: scale(1.05,1.05);
+    color: white;
+    background-color: #4edf0f;
+}

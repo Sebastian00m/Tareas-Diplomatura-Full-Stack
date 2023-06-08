@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const IndexPage = (props) => {
     return (
-        <div className="holder">
+        <div className="Container">
         <div className="carrousel">
             <div className="conteCarrousel">
                 <div className="itemCarrousel" id="itemCarrousel-1">

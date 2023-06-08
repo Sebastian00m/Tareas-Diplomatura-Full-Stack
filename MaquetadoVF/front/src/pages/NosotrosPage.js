@@ -1,3 +1,11 @@
+import '../styles/components/pages/NosotrosPage.css'
+
+import Elon from '../images/elonmusk.jpg';
+import Jeff from '../images/jeff bezos.jpg';
+import Mark from '../images/Mark-Zuckerberg.jpg';
+import Martin from '../images/martingalperin.jpg';
+import Satya from '../images/Satya-Nadella-RT.png';
+
 const NosotrosPage =(props) => {
     return (
         <main className="holder">
@@ -12,7 +20,7 @@ const NosotrosPage =(props) => {
             corrupti? Ducimus, aspernatur.</p>
         <div className="tutores">
             <div className="tutor">
-                <img src='../images/elonmusk.jpg' alt="Elon-Musk"/>
+                <img src={Elon} alt="Elon-Musk"/>
                 <h3>Elon Musk</h3>
                 <h4>Tutor de Full Stack</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab amet quos adipisci, officia et minima
@@ -20,7 +28,7 @@ const NosotrosPage =(props) => {
                     suscipit! Quae, veniam reiciendis?</p>
             </div>
             <div className="tutor">
-                <img src='../images/jeff bezos.jpg' alt="Jeff-bezos"/>
+                <img src={Jeff} alt="Jeff-bezos"/>
                 <h3>Jeff Bezos</h3>
                 <h4>Tutor de Desarrollo Frontend con React</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab amet quos adipisci, officia et minima
@@ -28,7 +36,7 @@ const NosotrosPage =(props) => {
                     suscipit! Quae, veniam reiciendis?</p>
             </div>
             <div className="tutor">
-                <img src='../images/Mark-Zuckerberg.jpg' alt="Mark-Zuckerberg"/>
+                <img src={Mark} alt="Mark-Zuckerberg"/>
                 <h3>Mark Zuckerberg</h3>
                 <h4>Tutor de Desarrollo Backend</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab amet quos adipisci, officia et minima
@@ -36,7 +44,7 @@ const NosotrosPage =(props) => {
                     suscipit! Quae, veniam reiciendis?</p>
             </div>
             <div className="tutor">
-                <img src='../images/martingalperin.jpg' alt="Martin-Galperin"/>
+                <img src={Martin} alt="Martin-Galperin"/>
                 <h3>Martin Galperin</h3>
                 <h4>Tutor de Java Script</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab amet quos adipisci, officia et minima
@@ -44,7 +52,7 @@ const NosotrosPage =(props) => {
                     suscipit! Quae, veniam reiciendis?</p>
             </div>
             <div className="tutor">
-                <img src='../images/Satya-Nadella-RT.png' alt="Satya-Nadella"/>
+                <img src={Satya} alt="Satya-Nadella"/>
                 <h3>Satya Nadella</h3>
                 <h4>Tutor de Python</h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab amet quos adipisci, officia et minima
