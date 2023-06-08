@@ -1,6 +1,6 @@
 import '../../styles/components/layout/Header.css'
 import MyLogo from '../../images/logo.png';
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 const Header = (props) =>{
     return(
@@ -11,10 +11,14 @@ const Header = (props) =>{
             </div>
 
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="/cursos">Nuestros cursos</Link>
-                <Link to="/nosotros">Sobre Nosotros</Link>
-                <Link to="/contacto">Contacto</Link>
+                <NavLink to="/" className={({ isActive}) => isActive ? "activo" :
+                 undefined }>Home</NavLink>
+                 <NavLink to="/cursos" className={({ isActive}) => isActive ? "activo" :
+                 undefined }>Nuestros cursos</NavLink>
+                 <NavLink to="/nosotros" className={({ isActive}) => isActive ? "activo" :
+                 undefined }>Sobre nosotros</NavLink>
+                <NavLink to="/contacto" className={({ isActive}) => isActive ? "activo" :
+                 undefined }>Contacto</NavLink>
             </nav>
         </header>
     )
