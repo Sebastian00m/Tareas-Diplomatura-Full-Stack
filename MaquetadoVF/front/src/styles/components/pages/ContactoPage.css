@@ -1,19 +1,17 @@
-.Container{
+.contacto{
     display: flex;
     gap: 30px;
 }
 .contacto div{
     width: 100%;
 }
-h2, h4{
-    color: #ccc;
-}
 .datos p{
     font-size: 14px;
     color: #ccc;
 }
-.datos h4{
+.datos ul li{
     font-size: 13px;
+    color: #ccc;
 }
 .formulario p{
     display: flex;
@@ -23,6 +21,22 @@ h2, h4{
     display: flex;
     align-items: center;
     color: #ccc;
+}
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+.formulario p:nth-child(4){
+    align-items: start;
+}
+.formulario textarea{
+    resize: none;
+    height: 150px;
 }
 .formulario input[type="submit"]{
     padding: 6px 20px;

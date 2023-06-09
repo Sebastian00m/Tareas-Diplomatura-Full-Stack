@@ -1,4 +1,8 @@
-
+*{
+   
+    padding: 0;
+    box-sizing: border-box;
+}
 .Container{
     width: 100%;
     display: flex;
@@ -41,7 +45,7 @@
     padding: 20px; 
 }
 
-.itemCarrouselArrows  i:hover {
+.itemCarrouselArrows  FontAwesomeIcon:hover {
     cursor: pointer;
 }
 
@@ -52,13 +56,13 @@
     justify-content: space-evenly;
 }
 
-.conteCarrouselController  a{
+.conteCarrouselController  Link{
     text-decoration: none;
     font-size: 2em;
     color: grey;
 }
 
-.itemCarrouselArrows  a  i{
+.itemCarrouselArrows  Link  FontAwesomeIcon{
     color: #14e414;
 }
 img{
