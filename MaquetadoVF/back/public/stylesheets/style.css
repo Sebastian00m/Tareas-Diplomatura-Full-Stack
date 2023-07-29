@@ -1,0 +1,33 @@
+
+body{
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: white;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #4edf0f;
+  padding: 20px 0;
+  text-align: center;
+}
+header h1{
+  font-size: 40px;
+  font-weight: 100;
+  display: inline-block;
+ 
+  margin-left: 10px;
+}
+footer{
+  background-color: #ccc;
+  clear: both;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+}
