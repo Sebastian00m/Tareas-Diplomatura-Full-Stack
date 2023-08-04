@@ -2,6 +2,39 @@
 <h2>Hola {{persona}} , como estas?</h2><br>
 <div class="container" style="margin-top: 50px;">
     <div class="row">
-        <p class="text-end"><a class="btn btn-danger" href="/admin/login/logout">Cerrar Sessión<i class="fas fa-sign-out-alt"></i></a></p>
+        <div class="d-grid gap-2 d-md-block">
+            <a class="btn btn-success"href="/admin/novedades/agregar">Nuevo <i class="fa-solid fa-plus"></i></a>
+        </div>
+
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Curso</th>
+                    <th scope="col">Cant.Alumnos</th>
+                    <th scope="col">Precio</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {{#each novedades}}
+                    <tr>
+                        <th scope="row">{{id}}</th>
+                        <td><i class="fa-solid fa-book"></i> {{curso}}</td>
+                        <td><i class="fa-solid fa-users"></i> {{calumnos}}</td>
+                        <td><i class="fa-solid fa-dollar-sign"></i> {{precio}}</td>
+                        <td class="text-end">
+                            <a href="/admin/novedades/modificar/{{id}}" class="btn btn-secondary"><i
+                                    class="fa-solid fa-pen-to-square"></i></a>
+                            <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-secondary" ><i class="fa-solid fa-trash-can"></i></a>
+
+                        </td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        <p class="text-end"><a class="btn btn-danger" href="/admin/login/logout">Cerrar Sessión <i
+                    class="fas fa-sign-out-alt"></i></a></p>
     </div>
 </div>

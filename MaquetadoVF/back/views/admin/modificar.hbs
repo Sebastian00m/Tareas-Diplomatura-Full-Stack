@@ -1,0 +1,22 @@
+<div class="container" style="margin:100px auto">
+    <div class="row">
+        <form action="/admin/novedades/modificar" method="post">
+            <div class="mb-3 row">
+                <input type="hidden" class="form-control" value="{{novedad.id}}" name="id">
+            </div>
+            <div class="mb-3 row">
+                <input type="text" class="form-control" value="{{novedad.curso}}" name="curso">
+            </div>
+            <div class="mb-3 row">
+                <input type="number" class="form-control" value="{{novedad.precio}}" name="precio">
+            </div>
+            <div class="mb-3 row">
+                <input type="number" class="form-control" value="{{novedad.calumnos}}" name="calumnos">
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+         {{#if error}}
+            <p>{{message}}</p>
+        {{/if}}
+    </div>
+</div>
