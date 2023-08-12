@@ -7,6 +7,7 @@ import Footer from './components/layout/Footer';
 
 import ContactoPage from './pages/ContactoPage';
 import CursosPage from './pages/CursosPage';
+import NovedadesPage from './pages/NovedadesPage';
 import IndexPage from './pages/IndexPage';
 import NosotrosPage from './pages/NosotrosPage';
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<IndexPage/>}/>
           <Route path="cursos" element={<CursosPage/>}/>
+          <Route path="precios" element={<NovedadesPage/>}/>
           <Route path="nosotros" element={<NosotrosPage/>}/>
           <Route path="contacto" element={<ContactoPage/>}/>
         </Routes>

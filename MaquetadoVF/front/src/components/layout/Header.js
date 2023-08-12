@@ -15,6 +15,8 @@ const Header = (props) =>{
                  undefined }>Home</NavLink>
                  <NavLink to="/cursos" className={({ isActive}) => isActive ? "activo" :
                  undefined }>Nuestros cursos</NavLink>
+                 <NavLink to="/precios" className={({ isActive}) => isActive ? "activo" :
+                 undefined }>Precios</NavLink>
                  <NavLink to="/nosotros" className={({ isActive}) => isActive ? "activo" :
                  undefined }>Sobre nosotros</NavLink>
                 <NavLink to="/contacto" className={({ isActive}) => isActive ? "activo" :

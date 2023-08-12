@@ -5,6 +5,7 @@ import phyton from '../images/phyton.png';
 import nodejs from '../images/nodejs.jpg';
 import react from '../images/react-logo.jpg';
 const CursosPage = (props) => {
+   
     return (
         <main className="holder">
             <div className='Container'>

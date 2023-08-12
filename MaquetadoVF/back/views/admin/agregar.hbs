@@ -1,6 +1,6 @@
 <div class="container" style="margin:100px auto">
     <div class="row">
-        <form action="/admin/novedades/agregar" method="post">
+        <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
             <div class="mb-3 row">
                 <input type="text" class="form-control" placeholder="Nombre del curso" name="curso">
             </div>
@@ -10,10 +10,13 @@
             <div class="mb-3 row">
                 <input type="number" class="form-control" placeholder="Cantidad de alumnos" name="calumnos">
             </div>
+            <div class="mb-3 row">
+                <label> Imagen: <input type="file" class="form-control" name="imagen" id="imagen"/></label>
+            </div>
             <button type="submit" class="btn btn-primary">Guardar</button>
         </form>
         {{#if error}}
-            <p>{{message}}</p>
+        <p>{{message}}</p>
         {{/if}}
     </div>
 </div>
